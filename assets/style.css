@@ -105,6 +105,37 @@ header .menu-icon div {
 
 /* Hero */
 
+.hero h1 {
+  font-family: 'Calistoga';
+  font-size: 72px;
+  line-height: 74px;
+  margin-top: 50px;
+}
+
+.hero p {
+  font-family: 'Inter';
+  font-size: 20px;
+  line-height: 26px;
+  margin: 40px 0;
+}
+
+.hero .button {
+  display: inline-block;
+  background-color: #FE6A0F;
+  font-weight: 500;
+  color: #FFFFFF;
+  padding: 15px 80px;
+  border-radius: 5px;
+  border: 1px #af4300;
+  text-decoration: none;
+  transform: scale(0.95);
+}
+
+.hero .button:hover{
+  transition: 1.2s;
+  transform: scale(1);
+}
+
 .hero .container {
   display: flex;
 }
@@ -130,4 +161,23 @@ header .menu-icon div {
   header .menu {
     display: flex;
   }
+
+  .hero .container {
+    flex-direction: column;
+  }
+  .hero .leftside {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .hero .rightside {
+    padding-bottom: 30px;
+  }
+  .hero .rightside img {
+    height: 300px;
+  }
+  .hero h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
 }
+
